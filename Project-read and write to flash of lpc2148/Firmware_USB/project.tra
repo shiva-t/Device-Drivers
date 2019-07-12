@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"diskimg.o"'
+### List of Objects: adding '"memory.o"'
+### List of Objects: adding '"mscuser.o"'
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"usbcore.o"'
+### List of Objects: adding '"usbdesc.o"'
+### List of Objects: adding '"usbhw.o"'
+### List of Objects: adding '"usbuser.o"'
+### List of Objects: adding '".\project.lib"'
+### ADS-LD Command completed:
+--device DARMP "diskimg.o" "memory.o" "mscuser.o" "startup.o" "usbcore.o" "usbdesc.o" "usbhw.o" "usbuser.o" ".\project.lib" --strict --scatter "project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\project.map" -o "project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'project.axf'
+### ADS-LD Command File: 'project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'project.lnp', Handle=0x00000448
+### Writing '.lnp' file
+### ADS-LD Command file 'project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

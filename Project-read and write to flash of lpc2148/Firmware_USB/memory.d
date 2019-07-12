@@ -1,0 +1,9 @@
+memory.o: memory.c
+memory.o: C:\Keil\ARM\INC\Philips\LPC214X.H
+memory.o: type.h
+memory.o: usb.h
+memory.o: usbcfg.h
+memory.o: usbhw.h
+memory.o: usbcore.h
+memory.o: mscuser.h
+memory.o: memory.h

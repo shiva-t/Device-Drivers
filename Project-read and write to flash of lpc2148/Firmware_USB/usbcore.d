@@ -1,0 +1,10 @@
+usbcore.o: usbcore.c
+usbcore.o: type.h
+usbcore.o: usb.h
+usbcore.o: usbcfg.h
+usbcore.o: usbhw.h
+usbcore.o: usbcore.h
+usbcore.o: usbdesc.h
+usbcore.o: usbuser.h
+usbcore.o: msc.h
+usbcore.o: mscuser.h

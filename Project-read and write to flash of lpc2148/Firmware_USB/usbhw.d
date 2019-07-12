@@ -1,0 +1,9 @@
+usbhw.o: usbhw.c
+usbhw.o: C:\Keil\ARM\INC\Philips\LPC214X.H
+usbhw.o: type.h
+usbhw.o: usb.h
+usbhw.o: usbcfg.h
+usbhw.o: usbreg.h
+usbhw.o: usbhw.h
+usbhw.o: usbcore.h
+usbhw.o: usbuser.h

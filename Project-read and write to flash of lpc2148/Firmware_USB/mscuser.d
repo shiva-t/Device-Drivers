@@ -1,0 +1,11 @@
+mscuser.o: mscuser.c
+mscuser.o: C:\Keil\ARM\INC\Philips\LPC214X.H
+mscuser.o: type.h
+mscuser.o: C:\Keil\ARM\RV31\INC\absacc.h
+mscuser.o: usb.h
+mscuser.o: msc.h
+mscuser.o: usbcfg.h
+mscuser.o: usbhw.h
+mscuser.o: usbcore.h
+mscuser.o: mscuser.h
+mscuser.o: memory.h

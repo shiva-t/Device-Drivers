@@ -1,0 +1,10 @@
+usbuser.o: usbuser.c
+usbuser.o: C:\Keil\ARM\INC\Philips\LPC214X.H
+usbuser.o: type.h
+usbuser.o: usb.h
+usbuser.o: usbcfg.h
+usbuser.o: usbhw.h
+usbuser.o: usbcore.h
+usbuser.o: usbuser.h
+usbuser.o: mscuser.h
+usbuser.o: memory.h
