@@ -1,3 +1,5 @@
+**Char Device Driver**
+
 Write a kernel module for a virtual 3 axis accelerometer device (ADXL) with 10 bit digital output corresponding to each X, Y & Z axis. 
 Each axis of this accelerometer device must be controlled using a single device driver. However, device driver, once activated, must create
 a seperate device file for each axis and name them adxl_x, adxl_y and adxl_z for x,y and z axis respectively. 
