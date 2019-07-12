@@ -1,0 +1,11 @@
+Write a kernel module for a virtual 3 axis accelerometer device (ADXL) with 10 bit digital output corresponding to each X, Y & Z axis. 
+Each axis of this accelerometer device must be controlled using a single device driver. However, device driver, once activated, must create
+a seperate device file for each axis and name them adxl_x, adxl_y and adxl_z for x,y and z axis respectively. 
+
+User can perform system calls on any of the 3 device files in order to read accelerometer data for that axis. 
+This device, when read, will return the current reading from the selected axis.
+
+As we are not dealing with real hardware here, implement the ADXL device as a function in the driver which returns an 10-bit true random 
+number for each axis, every time it is read by the user space application.
+
+Write the device driver as a loadable kernel module. Also write the user space application to demonstrate the usage of adxl driver.
