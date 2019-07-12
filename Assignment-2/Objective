@@ -1,0 +1,8 @@
+This assignment is designed to experiment with the block device driver concepts learnt during the lectures. Write a kernel module to create
+a DiskonFile block device called “dof” which is basically a user space file (/etc/sample.txt) being presented as block device to the system.
+
+Your kernel module should write procedures to read from and write to this user space file whenever there is any read write request from the
+kernel to block device dof. This block device should have 2 primary partitions (/dev/dof1 & /dev/dof2) and no extended partitions. Fill up
+the MBR details in the appropriate sector. Block device size should be 512 KB with sector size of 512 bytes. Use diskdump utility (dd) to
+demonstrate the details about your block device. Use cat command to write some data to your block device. Display partition information of
+your device using fdisk. 
