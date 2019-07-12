@@ -1,2 +1,1 @@
-# G547
-EEE G547 : Device Drivers
+Assignments and Project completed for Linux Device Drivers Course
